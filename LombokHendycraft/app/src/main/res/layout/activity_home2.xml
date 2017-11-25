@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jihad.lombokhendycraft.HomeActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/belekalombok"
+            android:layout_height="248dp"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:padding="@dimen/jarakjudul"
+            android:text="Lombok Hendycraft"
+            android:textSize="@dimen/textkuran"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:padding="@dimen/jarakisi"
+            android:layout_row="2"
+            android:text="@string/sambutan"
+            android:gravity="clip_vertical"/>
+
+        <LinearLayout
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/beranda"
+                android:layout_width="186dp"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_row="3"
+                android:onClick="Beranda"
+                android:text="Sebelumnya" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Songket"
+                android:text="Selanjutnya" />
+        </LinearLayout>
+
+    </GridLayout>
+</ScrollView>

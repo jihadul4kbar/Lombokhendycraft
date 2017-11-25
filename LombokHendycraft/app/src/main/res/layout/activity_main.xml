@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jihad.lombokhendycraft.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="88dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:baselineAligned="false"
+            android:contentDescription="@string/logo_lombok_hendycraft"
+            android:src="@drawable/handycraft"
+            android:textAlignment="center" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="209dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Home"
+        android:text="@string/start"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+    </LinearLayout>
+
+</ScrollView>

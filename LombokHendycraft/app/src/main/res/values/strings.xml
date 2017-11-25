@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Lombok Hendycraft</string>
+    <string name="start">Mulai</string>
+    <string name="logo_lombok_hendycraft">Logo Lombok Hendycraft</string>
+    <string name="title_activity_home">Home Activity</string>
+
+    <string name="sambutan">
+        Lombok adalah pulau yang memiliki ciri khas dan budaya yang dipengaruhi oleh budaya Bali dan Sasak,
+        adapun dalam memenuhi kehidupan sehari-hari mereka menggunakan beberapa anyaman atau kerajinan sebagai sumber penghasilan.
+        \n\nAda beberapa kerjinan yang menjadi tulang punggung perekonomian sebagian masyarakat Lombok seperti :
+    </string>
+
+    <string name="songket">Songket merupakan kerajinan tenun yang masih dilakukan oleh masyarakat yang berada di kampung Sade kecamatan Rambitan Lombok Tengah
+        dan di Desa Sukarara kecamatan Jonggat dengan ciri khas yang unik dan berbeda-beda namun mereka sekarang menjadi daerah destinasi budaya Lombok dengan ciri khas
+        berupa Rumah adat dan Songket, harga songket disesuaikan berdasarkan nilai kerumitang pembuatannya.
+    </string>
+
+    <string name="gerabah">Kerajinan ini berupa kerajinan dari tanah liat atau tanah malit yang dilakukan oleh sekelompok warga desa Banyumulek Lombok Barat dan Desa Penujak Lombok Tengah
+        kerajinan ini banyak mendapatkan pesanan baik dari luar negeri atau untuk kebutuhan warga lokal baik itu untuk perhotelan atau juga untuk kebutuhan rumah tangga sebagai furniture
+        atau kelengkapan rumah.
+    </string>
+
+    <string name="rotan">Kerajinan furnitur ini dapat kita temukan di desa Beleke Lombok Tengah dan kebanyakan kerajinan ini mendapat pesanan dari Pulau Dewata Bali
+        dan sebagian lagi dipakai untuk perlengkapan rumah sehari-hari.
+    </string>
+
+    <string name="ukiran">
+        Kerajinan cukli merupakan kerajinan yang berbahan dasar dari kulit kerang dan beberapa bahan dasar yang berasal dari laut seperti mutiara.
+        Dibandingkan dengan perajin di daerah lain, perajin ukir cukli di Desa Sesela Gunung Sari memiliki ciri khas tersendiri.
+        Para perajin lebih mengedepankan originalitas dan kualitas, sehingga mampu tampil beda.</string>
+</resources>

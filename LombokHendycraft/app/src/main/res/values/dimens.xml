@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="jarakjudul">16dp</dimen>
+    <dimen name="jarakisi">10dp</dimen>
+    <dimen name="textkuran">20dp</dimen>
+</resources>
